@@ -1,0 +1,72 @@
+.author
+{
+    font-size: 40px;
+    background-color: yellow;
+    overflow: auto;
+    height: 50px;
+    width: 300px;
+}
+
+
+.tom-jerry {
+    border-radius: 100%;
+    height: 250px;
+    width:250px;
+    border-style: dashed;
+    border-color: orange;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.image1 {
+    height:50px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+#address {
+    display: flex;
+    justify-content: center;
+}
+.profile {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+    height: 15px;
+  border-radius: 5px;  
+ 
+  }
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background-color: lightblue;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+
+  .skills-fig {
+      display: flex;
+      justify-content: flex-start;
+     
+  }
+
+  .column-alignment {
+      padding: 40px 40px;
+      margin: 15px 15px;
+  }
+
+  .vertical {
+      border-left: 5px solid black;
+  }
